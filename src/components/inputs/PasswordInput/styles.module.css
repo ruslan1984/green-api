@@ -1,0 +1,27 @@
+.inputBlock {
+  position: relative;
+}
+
+.input {
+  padding-right: 40px;
+}
+.inputIconBlock {
+  position: absolute;
+  right: 5px;
+  top: 3px;
+  color: white;
+  cursor: pointer;
+  background: #888;
+  border-radius: 20px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.inputIcon {
+  text-decoration: line-through;
+}
+.isVisible {
+  text-decoration: none;
+}

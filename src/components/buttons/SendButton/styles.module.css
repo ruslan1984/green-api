@@ -1,0 +1,13 @@
+.button {
+  border-radius: 15px;
+  background: var(--button-background);
+  border: none;
+  outline: none;
+  color: var(--default-color);
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+.button:hover {
+  background: var(--button-background-hover);
+}

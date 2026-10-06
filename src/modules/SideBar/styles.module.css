@@ -1,0 +1,7 @@
+.sideBar {
+  padding: 20px;
+  height: 100vh;
+  box-sizing: border-box;
+  background: var(--side-bar-background);
+  min-width: 300px;
+}

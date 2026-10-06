@@ -1,0 +1,38 @@
+.messageList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+  align-items: flex-end;
+}
+
+.message {
+  border-radius: 10px;
+  padding: 10px;
+  color: var(--default-color);
+  font-size: var(--default-font-size);
+  display: flex;
+  gap: 5px;
+  align-items: flex-end;
+  .text {
+    margin-bottom: 5px;
+  }
+  .time {
+    font-size: 0.7em;
+    color: var(--input-placeholder-color);
+  }
+}
+
+.message.outgoing {
+  align-self: flex-end;
+  background-image: linear-gradient(
+    239deg,
+    rgb(136, 73, 180) 0%,
+    rgb(115, 90, 205) 50%,
+    rgb(93, 106, 229) 100%
+  );
+}
+.message.incoming {
+  align-self: flex-start;
+  background: #383b52;
+}

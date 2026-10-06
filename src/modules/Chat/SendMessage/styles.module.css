@@ -1,0 +1,14 @@
+.form {
+  position: relative;
+}
+
+.textArea {
+  background-color: var(--chat-textarea-background);
+  border-radius: var(--chat-textarea-border-radius);
+  padding: var(--chat-textarea-padding);
+}
+.sendButton {
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+}

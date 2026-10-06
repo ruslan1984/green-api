@@ -1,0 +1,26 @@
+.chat {
+  width: 100%;
+  background-image: url("/src/assets/chat_fon.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.chatBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.container {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+.error {
+  background-color: rgb(238, 115, 115);
+  padding: 10px;
+  border-radius: 5px;
+}

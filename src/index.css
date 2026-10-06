@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family:
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+}
+input {
+  outline: none;
+}
+
+textarea {
+  outline: none;
+  overflow: hidden;
+  resize: none;
+  box-sizing: content;
+}
+
+:root {
+  --default-border-radius: 8px;
+  --default-padding: 8px 12px;
+  --default-font-size: 14px;
+  --default-color: #fff;
+
+  --input-background: #393a40;
+  --input-border: none;
+  --input-placeholder-color: #bfbbbb;
+  --input-focus-border-color: #007bff;
+
+  --side-bar-background: #0f0f12;
+
+  --button-background: #007aff;
+  --button-background-hover: #238af8;
+  --button-color: #fff;
+
+  --chat-textarea-background: #0f0f12;
+  --chat-textarea-border-radius: 15px;
+  --chat-textarea-padding: 15px 45px 15px 20px;
+}
+
+input::placeholder {
+  color: var(--input-placeholder-color);
+}
